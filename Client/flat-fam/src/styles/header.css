@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #ecf5f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+body{
+    margin: 0px;
+}
+.logo img{
+    border-radius: 20px;
+}
+.navbar-right button{
+    background-color: #0d2c54;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    border: 0px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.navbar-right button:hover{
+    background-color: #0d2c54c0;
+}
+.navbar-right{
+    display:flex;
+    gap: 10px;
+}
+.navbar-center p {
+color: #0d2c54;
+font-size:xx-large ;
+font-weight: 900;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-center p span{
+    color:#1791c8;
+}
